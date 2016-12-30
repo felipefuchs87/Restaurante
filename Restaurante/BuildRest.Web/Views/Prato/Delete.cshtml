@@ -1,0 +1,40 @@
+﻿@model BuildRest.Modelo.Prato
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Prato</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurante.RestauranteNome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Restaurante.RestauranteNome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PratoNome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PratoNome)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

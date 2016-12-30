@@ -1,0 +1,33 @@
+﻿@model IEnumerable<BuildRest.Modelo.Restaurante>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de Restaurantes</h2>
+
+<p>
+    @Html.ActionLink("Cadastrar", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Nome 
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RestauranteNome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.RestauranteId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.RestauranteId }) |
+            @Html.ActionLink("Remover", "Delete", new { id=item.RestauranteId })
+        </td>
+    </tr>
+}
+
+</table>

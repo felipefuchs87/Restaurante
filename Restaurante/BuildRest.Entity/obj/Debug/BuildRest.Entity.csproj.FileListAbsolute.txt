@@ -1,0 +1,12 @@
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\BuildRest.Entity.dll.config
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\BuildRest.Entity.dll
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\BuildRest.Entity.pdb
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\BuildRest.Modelo.dll
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\EntityFramework.dll
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\BuildRest.Modelo.pdb
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\EntityFramework.xml
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\obj\Debug\BuildRest.Entity.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\obj\Debug\BuildRest.Entity.dll
+C:\Desenvolvimento\Restaurante\BuildRest.Entity\obj\Debug\BuildRest.Entity.pdb
